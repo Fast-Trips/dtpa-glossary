@@ -5,12 +5,9 @@ A directory of terms collectively written by members of the transit modeling com
 This glossary is a project of the [Tri-Agency Implementation of Dynamic Transit Assignment](http://fast-trips.mtc.ca.gov) but
 
 ## Contributing
-Please feel free to submit any requests via the issue tracker.  You can also submit pull requests for issues that are marked "todo".
+Please feel free to submit any requests via the [issue tracker](https://github.com/Fast-Trips/dtpa-glossary/issues).  You can also submit pull requests for issues that are marked "todo".
 
-## Versioning
-We will be purposefully not versioning this site for now.  It may be useful to do so in the future.
-
-## Credits
+## Contributors
 * **Elizabeth Sall, UrbanLabs LLC** - *Organizer*
 * **Lisa Zorn, MTC** - *Project Team*  
 * **Bhargava Sana, SFCTA** - *Project Team*  
@@ -26,6 +23,9 @@ We will be purposefully not versioning this site for now.  It may be useful to d
 * **Chetan Joshi, PTV** - *Independent Contributor*
 * **Rebekah Anderson, Ohio DOT** - *Independent Contributor*
 * **Scott Ramming, DRCOG** - *Independent Contributor*
+
+## Versioning
+We will be purposefully not versioning this site for now.  It may be useful to do so in the future.
 
 ## License
 This project is licensed under [cc-by-sa-4.0](https://choosealicense.com/licenses/cc-by-sa-4.0/) - see the [LICENSE](LICENSE) file for details
