@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+{% include head.html %}
+
+<body>
+{% include nav.html %}
+
+<div class="container-fluid" id="main">
+<div class="row">
+<div class="col-md-9">
+	<h3><p>{{ page.title }}</p></h3>
+	<section id="project-content">
+	<p>{{ page.short-description }}</p>
+
+	{{ content }}
+	</section>
+
+</div>
+
+<div class="col-md-3">
+	<div>
+	<!-- Create empty arrays -->
+	<h3><p class="zephyr">Related Terms</p></h3>
+		{% for term in site.terms %}
+		{% for ptag in page.tags %}
+		{% if term.title != page.title %}
+		{% if term.title != prev_title %}
+  		{% if term.tags contains ptag %}
+    	<h6><a href={{ site.baseurl }}{{ term.url }}>{{ term.title }}</a></h6>
+		<p class="caption">{{ term.short-description }}</p>
+		{% assign prev_title = term.title %}
+  		{% endif %}
+  		{% endif %}
+  		{% endif %}
+		{% endfor %}
+		{% endfor %}
+	</div>
+	<div>
+	<h3><p>Relevant Articles</p></h3>
+		{% for article in site.articles %}
+		{% for ptag in page.tags %}
+		{% if article.title != page.title %}
+		{% if article.title != prev_article %}
+  		{% if article.tags contains ptag %}
+    	<h6><a href={{ site.baseurl }}{{ article.url }}>{{ article.title }}</a></h6>
+		<p class="caption">{{ article.short-description }}</p>
+		{% assign prev_article = article.title %}
+  		{% endif %}
+  		{% endif %}
+  		{% endif %}
+		{% endfor %}
+		{% endfor %}
+	</div>
+</div>
+
+</div>
+
+
+
+{% include footer.html %}
+{% include js.html %}
+
+</body>
+</html>

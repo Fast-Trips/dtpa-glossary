@@ -1,0 +1,123 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+p {
+	color: #585858;
+	font-family: Lato,"Source Sans Pro", Helvetica, sans-serif;
+	font-size: 16pt;
+	font-weight: 300;
+	line-height: 1.75;
+}
+
+h1,h2,h3,h4 {
+	font-family: "Roboto";
+	text-transform: uppercase;
+}
+
+h5,h6 {
+	font-family: "Roboto";
+	font-weight: 300;
+}
+
+.caption {
+	font-size: 10pt;
+}
+
+.side-bar{
+	font-size: 10pt;
+	color: #585858;
+	font-family: Lato,"Source Sans Pro", Helvetica, sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+
+.stretch {
+	letter-spacing: 20px;
+}
+
+.no-stretch {
+		     font-stetch: normal;
+}
+
+.condensed {
+		     font-stetch: ultra-condensed;
+}
+
+/*
+NavBar
+*/
+
+
+.logo {
+	color: #00aced;
+}
+
+/*
+Body
+*/
+
+
+body {
+    padding-top: 80px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/*
+Footer
+*/
+
+footer {
+    padding: 1rem 0;
+    margin-top: 0.25rem;
+    background-color: #f7f7f7;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+.btn-outline {
+    margin-top: 15px;
+    margin-right: 2px;
+    border: solid 2px #585858;
+    font-size: 20px;
+    color: #585858;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #{{ site.color.primary }};
+    background: #fff;
+}
+
+/*
+Items
+*/
+
+.square-card {
+    margin: 2px 2px 2px 2px;
+    height: 7rem;
+    width: 10rem;
+    background-color: #f7f7f7;
+}

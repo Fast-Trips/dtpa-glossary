@@ -1,0 +1,85 @@
+---
+layout: front
+title: Dynamic Transit Passenger Assignment Glossary
+subTitle: Hope you find what you are looking for.
+---
+
+<!-- Main -->
+<div class="row">
+
+<div class="col-md-8">
+<h4>Welcome </h4>
+<p>Welcome to the dynamic transit passenger assignment glossary.
+</p>
+
+<section id="terms">
+<h3>Categories</h3>
+<div class="card-deck">
+{% for group in site.groups %}
+  	{% if group.front %}
+  	<div>
+  	<a href= {{ site.baseurl }}{{ group.url }}>
+  	<div class="card square-card">
+  		<div class="card-block">
+    		<h6 class="card-title">{{ group.title }}</h6>
+		</div>
+	</div>
+	</a>
+	</div>
+  	{% endif %}
+{% endfor %}
+</div>
+</section>
+
+</div>
+
+<div class="col-md-4">
+	<!-- Blog Categories Well -->
+   <div class="side-bar">
+   <h3>About</h3>
+    <p class="caption">The purpose of this glossary is to create a shared understanding in the travel analysis industry of the terms associated with dynamic passenger assignment (especially for transit).</p>
+    <h6>How</h6>
+         <p class="caption">The glossary was created with the following process:
+           <ol>
+            <li>First draft created by the <a href="http://fast-trips.mtc.ca.gov">SHRP2-C10 Implementation Project</a> led by the <a href="https://bayareametro.gov/">Metropolitan Transportation Commission (MTC)</a></li>
+            <li>Draft sent out for comment and review to invited reviewers</li>
+            MTC team revised glossary based on comments</li>
+            <li>Public reivew, including a public announcement via TMIP, and ResearchGate</li>
+            <li>Posting of reviewed content on this site.</li>
+            <li>Continued refinement, corrections, and additions as suggested and debated in this site's "issues"</li>
+          </ol></p>
+    <h6>Contributors</h6>
+      <p class="caption">Thank you to the following contributors (affiliations for identification purposes only):<ul>
+        <li>Lisa Zorn, MTC - Project Team
+        <li>Bhargava Sana, SFCTA - Project Team
+        <li>Dan Tischler, SFCTA - Project Team
+        <li>Drew Cooper, SFCTA - Project Team
+        <li>Brice Nichols, PSRC - Project Team
+        <li>Angela Yang, PSRC - Project Team
+        <li>Stefan Coe, PSRC - Project Team
+        <li>Alireza Khani, UofM - Project Team
+        <li>Elizabeth Sall, UrbanLabs LLC - Project Team
+        <li>Natalia Ruiz Juri, UT/CTR - Idea originator
+        <li>Michael Mahut, INRO - Independent Contributor
+        <li>Peter Bosa, METRO - Independent Contributor
+        <li>Chetan Joshi, PTV - Independent Contributor
+        <li>Rebekah Anderson, Ohio DOT - Independent Contributor
+        <li>Scott Ramming, DRCOG - Independent Contributor
+        <li><i>Your name here</i></li></ul>
+      </p>
+    <h6>Usage</h6>
+      <p class="caption">Content on this site is available via the Creative Commons License <a href="https://choosealicense.com/licenses/cc-by-sa-4.0/">cc-by-sa-4.0</a> - see the LICENSE file for details.
+      </p>
+  </div>
+	<!-- Side Widget Well -->
+	<div>
+		<h3>Updates</h3>
+		<p class="side-bar">This site is a work in progress.  We welcome feedback on how to make it more helpful.</p>
+	</div>
+
+</div>
+<!-- /.col-md-4 -->
+
+
+</div>
+<!-- /.row -->

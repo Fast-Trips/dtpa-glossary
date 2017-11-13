@@ -1,0 +1,56 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: https://fast-trips.github.io/dtpa-glossary
+baseurl: /dtpa-glossary
+title: Dynamic Transit Passenger Assignment Glossary
+short-title: DTPA Glossary
+
+author: Elizabeth Sall
+credits: 'Site created by Elizabeth Sall, UrbanLabs LLC'
+
+collections:
+    articles:
+        output: true
+    events:
+        output: false
+    groups:
+        output: true
+    terms:
+        output: true
+
+
+
+# ----------------------- #
+#   Look Settings         #
+# ----------------------- #
+
+top-bg-img:
+bottom-bh-img:
+highlight-color: 00aced         #turquoise blue
+dark-gray-color: 2F4F4F         #dark gray
+background-highlight: fafafa    #light gray - blueish
+highlight-text: f8f8f8          #light gray
+default-tile-img: pic07.jpg
+
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   Social                #
+# ----------------------- #
+
+social:
+  - icon: github-alt
+    url: https://github.com/fast-trips
+  - icon: github
+    url: https://github.com/bayareametro/fast-trips
+  - icon: subway
+    url: http://fast-trips.mtc.ca.gov/

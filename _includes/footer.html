@@ -1,0 +1,22 @@
+<!-- Footer -->
+
+<footer>
+<div class="container">
+
+<section id="contact">
+<div class="row">
+	<div class="col-md-12" style="text-align: left;">
+
+	<div class="row" style="text-align: left;">
+		{% for social_network in site.social %}
+		<a href="{{ social_network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ social_network.icon }}"></i></a>
+		{% endfor %}
+	</div>
+
+	</div>
+</div>
+</section>
+
+
+</div>
+</footer>
