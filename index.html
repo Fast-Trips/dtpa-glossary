@@ -14,20 +14,18 @@ subTitle: Hope you find what you are looking for.
 
 <section id="terms">
 <h3>Categories</h3>
-<div class="card-deck">
+<div class="transitline">
+<ul>
 {% for group in site.groups %}
   	{% if group.front %}
-  	<div>
-  	<a href= {{ site.baseurl }}{{ group.url }}>
-  	<div class="card square-card">
-  		<div class="card-block">
-    		<h6 class="card-title">{{ group.title }}</h6>
-		</div>
-	</div>
-	</a>
-	</div>
+      <li class="tstop">
+        <a href={{ site.baseurl }}{{ group.url }}>
+            <h6 class="stopname">{{ group.title }}</h6>
+        </a>
+      </li>
   	{% endif %}
 {% endfor %}
+</ul>
 </div>
 </section>
 
