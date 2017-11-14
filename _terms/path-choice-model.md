@@ -1,6 +1,6 @@
 ---
 layout: term
-tags: [ models, constructs]
+tags: [ models, path-choice]
 title: path choice model
 short-description: A mathematical model for selecting a path from a set of feasible choices.  Examples include the recursive logit model, path-size logit model, Kirchhoff model.
 notation:

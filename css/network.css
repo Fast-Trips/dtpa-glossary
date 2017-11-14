@@ -1,0 +1,46 @@
+
+
+svg circle.node {
+  fill: #00aced;
+  stroke: #1b3978;
+  stroke-width: 1.5px;
+}
+
+svg circle.selected {
+  fill: yellow;
+  stroke: #1b3978;
+  stroke-width: 1.5px;
+}
+
+svg circle.origin {
+  fill: #f7f7f7;
+  stroke: #1b3978;
+  stroke-width: 1.5px;
+}
+
+svg circle.destination {
+  fill: #585858;
+  stroke: #1b3978;
+  stroke-width: 1.5px;
+}
+
+svg line.link {
+  stroke: #222;
+  stroke-opacity: .6;
+  stroke-width: 2px;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  width: 80px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: #8fb3de;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}

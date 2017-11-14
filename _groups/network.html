@@ -1,0 +1,29 @@
+---
+layout: group
+title: network
+category: network
+front: true
+---
+<html>
+<svg width="600" height="200" style:"opacity:1;">
+  <marker id="arrowhead" markerWidth="10" markerHeight="10"
+refX="13" refY="3.5" orient="auto">
+  <polygon points="0 0, 10 3.5, 0 7" />
+ </marker>
+  <line class="link" x1="100" y1="100" x2="200" y2="100" marker-end="url(#arrowhead)"></line>
+  <line class="link" x1="200" y1="100" x2="300" y2="20" marker-end="url(#arrowhead)"></line>
+  <line class="link" x1="200" y1="100" x2="300" y2="180" marker-end="url(#arrowhead)"></line>
+  <line class="link" x1="300" y1="20" x2="300" y2="180" marker-end="url(#arrowhead)"></line>
+  <line class="link" x1="300" y1="20" x2="400" y2="100" marker-end="url(#arrowhead)"></line>
+  <line class="link" x1="300" y1="180" x2="400" y2="100" marker-end="url(#arrowhead)"></line>
+  <line class="link" x1="400" y1="100" x2="500" y2="100" marker-end="url(#arrowhead)"></line>
+  <circle class="origin" cx="100" cy="100", r="8"></circle>
+  <circle class="node" cx="200" cy="100", r="8"></circle>
+  <circle class="selected" cx="300" cy="20", r="8"></circle>
+  <circle class="node" cx="300" cy="180", r="8"></circle>
+  <circle class="node" cx="400" cy="100", r="8"></circle>
+  <circle class="destination" cx="500" cy="100", r="8"></circle>
+  <text x="80" y="130">Origin</text>
+  <text x="460" y="130">Destination</text>
+ </svg>
+</html>

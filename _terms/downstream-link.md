@@ -1,11 +1,11 @@
 ---
 layout: term
-tags: [ passengers, demand ]
-title: joint person trip
-short-description: A person trip that undertaken with another person.
+tags: [ network, geography, topology, link, model construct ]
+title: downstream link
+short-description: A link that is reachable from a node (forward shortest-path) or a link that can reach the current node (backward shortest path)
 notation:
 example: .
-type: input
+type: model construct
 alias: .
 formats: [  ]
 ---

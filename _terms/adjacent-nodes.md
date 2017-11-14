@@ -1,6 +1,6 @@
 ---
 layout: term
-tags: [ constructs ]
+tags: [  node, geography, topology, model construct]
 title: adjacent notes
 short-description: Nodes that are reachable from a node via a single  link
 notation:
