@@ -1,7 +1,7 @@
 ---
 layout: term
 tags: [  node, geography, topology, model construct]
-title: adjacent notes
+title: adjacent nodes
 short-description: Nodes that are reachable from a node via a single  link
 notation:
 example: .
